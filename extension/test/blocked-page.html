@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <title>测试：禁止复制的页面</title>
+    <style>
+      body { font: 16px/1.7 system-ui, "PingFang SC", sans-serif; max-width: 640px; margin: 40px auto; padding: 0 20px; }
+      /* 1) CSS 禁止选中 */
+      .protected { -webkit-user-select: none; -moz-user-select: none; user-select: none; }
+      .box { border: 1px solid #ddd; border-radius: 8px; padding: 16px; margin: 16px 0; }
+      code { background: #f3f4f6; padding: 1px 5px; border-radius: 4px; }
+    </style>
+  </head>
+  <body>
+    <h1>禁复制测试页</h1>
+    <p>装好扩展后，下面这段文字应该能被选中、复制，右键菜单也应该能出来。</p>
+
+    <div class="box protected" oncopy="return false" oncontextmenu="return false" onselectstart="return false">
+      <strong>这段文字用了 4 种禁复制手段：</strong>
+      CSS user-select:none、行内 oncopy、行内 oncontextmenu、行内 onselectstart。
+      如果你能把它选中并 Ctrl/⌘+C 复制出去，说明扩展生效了。
+    </div>
+
+    <div id="shadow-host"></div>
+
+    <!-- 回归：验证扩展不破坏正常交互 -->
+    <form id="real-form" onsubmit="window.__submitted=true;return false;">
+      <input id="real-input" placeholder="普通输入框" />
+      <button id="real-btn" type="button" onclick="window.__clicked=true">真按钮</button>
+    </form>
+
+    <script>
+      // 0) Shadow DOM 内部也禁选中（用 closed 模式，模拟强力场景）
+      const sh = document.getElementById("shadow-host").attachShadow({ mode: "open" });
+      sh.innerHTML =
+        '<div class="box" style="-webkit-user-select:none;user-select:none;border:1px solid #ddd;border-radius:8px;padding:16px;margin:16px 0;">' +
+        "<strong>Shadow DOM 内的文字：</strong>这段在 shadow root 里，且设了 user-select:none。强力/穿透生效后应可选中。</div>";
+
+      // 2) JS 事件监听（capture + bubble），动态添加
+      ["copy", "cut", "contextmenu", "selectstart", "dragstart"].forEach((t) => {
+        document.addEventListener(t, (e) => { e.preventDefault(); }, true);
+        document.addEventListener(t, (e) => { e.preventDefault(); }, false);
+      });
+      // 3) 拦截 Ctrl/⌘+C
+      document.addEventListener("keydown", (e) => {
+        if ((e.ctrlKey || e.metaKey) && ["c", "x", "a"].includes((e.key || "").toLowerCase())) {
+          e.preventDefault();
+        }
+      }, true);
+    </script>
+  </body>
+</html>

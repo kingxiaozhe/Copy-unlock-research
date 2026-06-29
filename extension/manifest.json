@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "复制解锁 · Copy Unlock",
+  "version": "0.1.0",
+  "description": "一键解除网页对选中 / 复制 / 右键的前端限制，让能看到的内容能复制。",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "复制解锁"
+  },
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "src/constants.js",
+        "src/site-rules.js",
+        "src/unlock.js",
+        "src/toolbar.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true,
+      "match_about_blank": true
+    }
+  ]
+}
