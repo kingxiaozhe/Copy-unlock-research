@@ -1,0 +1,418 @@
+{
+  "meta": {
+    "name": "Ultimate Enable Right Click ─ Allow Copy",
+    "avgRating": "2.5",
+    "ratingsCount": "610",
+    "usersCount": "100,000",
+    "url": "https://chromewebstore.google.com/detail/ultimate-enable-right-cli/emfeppdfcjnldjgmofdkbggeacapegen/reviews",
+    "reviewCount": 58
+  },
+  "reviews": [
+    {
+      "author": "Another Planet’s Hell",
+      "date": "Jul 12, 2025",
+      "rating": 5,
+      "text": "I'm baffled by the low ratings. This is the only alternative to the previous Allow Right-Click extension I was using (which Google depreciated due to Manifest 3) that works AND does so globally (on all website). Thank you immensely for this.",
+      "helpful": 1
+    },
+    {
+      "author": "Mathias",
+      "date": "Mar 2, 2025",
+      "rating": 3,
+      "text": "This extensions is great and very useful even on very protected russian websites. \nOnly problem is that it's been causing CloudFlare human verification endless loops for years now. An update would be welcomed. As it is one has to deactivate this extension every time one needs to validate a CloudFlare test.",
+      "helpful": 1
+    },
+    {
+      "author": "Sudarshan Mondal",
+      "date": "Sep 4, 2024",
+      "rating": 5,
+      "text": "working perfectly.",
+      "helpful": 1
+    },
+    {
+      "author": "chad rizzard",
+      "date": "Aug 5, 2024",
+      "rating": 5,
+      "text": "whats with the trash rating, this is the best extension out of all similar extensions",
+      "helpful": 0
+    },
+    {
+      "author": "iarosnaps",
+      "date": "Jul 27, 2024",
+      "rating": 5,
+      "text": "2.3 stars wth, it works",
+      "helpful": 0
+    },
+    {
+      "author": "Mali Prakashkumar",
+      "date": "Jun 28, 2024",
+      "rating": 5,
+      "text": "best usfull Extensions",
+      "helpful": 0
+    },
+    {
+      "author": "Vo Van Tri",
+      "date": "Apr 3, 2024",
+      "rating": 5,
+      "text": "good",
+      "helpful": 0
+    },
+    {
+      "author": "Fábio Inácio Bernardo",
+      "date": "Jan 15, 2024",
+      "rating": 5,
+      "text": "This one works on OperaGX!",
+      "helpful": 1
+    },
+    {
+      "author": "Maor Pichadze",
+      "date": "Dec 24, 2023",
+      "rating": 5,
+      "text": "Wonderful Extension ! Helped me with a my university's website.",
+      "helpful": 1
+    },
+    {
+      "author": "Lykotic",
+      "date": "Dec 21, 2023",
+      "rating": 5,
+      "text": "Tried a few, Finally something that works! Thanks!",
+      "helpful": 1
+    },
+    {
+      "author": "paul newman",
+      "date": "Dec 11, 2023",
+      "rating": 3,
+      "text": "wow! i've tried dozens of extensions, none of them work. and who would have thought that an extension with a trash rating would work?! but it really worked!\n\nup: now it's causing problems with cloudflare",
+      "helpful": 1
+    },
+    {
+      "author": "Yaroslav S",
+      "date": "Dec 1, 2023",
+      "rating": 5,
+      "text": "it works lol",
+      "helpful": 1
+    },
+    {
+      "author": "keyur monpara",
+      "date": "Jul 20, 2023",
+      "rating": 5,
+      "text": "It works Perfectly",
+      "helpful": 0
+    },
+    {
+      "author": "Matthew",
+      "date": "Jul 12, 2023",
+      "rating": 1,
+      "text": "Does not work. Not only does it not work, it actually disables other allow right click extensions from working.",
+      "helpful": 1
+    },
+    {
+      "author": "Elior Estrin",
+      "date": "Jun 30, 2023",
+      "rating": 5,
+      "text": "It works!\nthanks",
+      "helpful": 0
+    },
+    {
+      "author": "Bivi Shan",
+      "date": "Jun 6, 2023",
+      "rating": 5,
+      "text": "amazing extension. thank you so much. <3",
+      "helpful": 0
+    },
+    {
+      "author": "I Anuj.",
+      "date": "May 23, 2023",
+      "rating": 2,
+      "text": "I'm unable to copy content of google classrom",
+      "helpful": 0
+    },
+    {
+      "author": "Rohan Rusho",
+      "date": "Mar 19, 2023",
+      "rating": 5,
+      "text": "lovely",
+      "helpful": 0
+    },
+    {
+      "author": "Tawqeer-ul- Nisa",
+      "date": "Mar 14, 2023",
+      "rating": 5,
+      "text": "it was amazing",
+      "helpful": 0
+    },
+    {
+      "author": "D4rkWzd",
+      "date": "Feb 26, 2023",
+      "rating": 5,
+      "text": "It works.",
+      "helpful": 1
+    },
+    {
+      "author": "Sait",
+      "date": "Jan 12, 2023",
+      "rating": 5,
+      "text": "working good. really good..",
+      "helpful": 0
+    },
+    {
+      "author": "Michael Vu",
+      "date": "Jan 6, 2023",
+      "rating": 5,
+      "text": "Simple! It's working!",
+      "helpful": 1
+    },
+    {
+      "author": "Hig Antes",
+      "date": "Aug 16, 2022",
+      "rating": 2,
+      "text": "Nah, not the ultimate as does not allow me to copy.",
+      "helpful": 0
+    },
+    {
+      "author": "an jo",
+      "date": "Aug 13, 2022",
+      "rating": 5,
+      "text": "good",
+      "helpful": 0
+    },
+    {
+      "author": "Lucian Andries",
+      "date": "Jul 27, 2022",
+      "rating": 5,
+      "text": "Works great!\nAnd also has text selection, which websites nowadays even disable that.\n\nGreat work!\n\nPS: I love that you added Dark Mode! But make the \"disable in this page\" text and buttons more visible please, they are as dark as the background color. Make them a light gray, and the \"enable\" text  and icons make them white.\n\nThank you!",
+      "helpful": 1
+    },
+    {
+      "author": "롤엘",
+      "date": "Jun 24, 2022",
+      "rating": 5,
+      "text": "very nice",
+      "helpful": 1
+    },
+    {
+      "author": "Google User",
+      "date": "May 14, 2022",
+      "rating": 1,
+      "text": "FAILS TO WORK ON MSN",
+      "helpful": 0
+    },
+    {
+      "author": "Jeffrey Runion (Jeff)",
+      "date": "Apr 22, 2022",
+      "rating": 5,
+      "text": "I only wish that I knew of this app sooner; it would have come in handy over the last four years of college, lol. Great app!!",
+      "helpful": 0
+    },
+    {
+      "author": "Dot Sis",
+      "date": "Apr 7, 2022",
+      "rating": 5,
+      "text": "Ots really work! Thank you so much for making this extension. We love you !",
+      "helpful": 0
+    },
+    {
+      "author": "siti khadijah",
+      "date": "Mar 14, 2022",
+      "rating": 5,
+      "text": "here, sir 5 stars. you deserved it. it is a very convenient extension. before i used this. i had to used inspect element as my tool, to copy some text from the web.",
+      "helpful": 0
+    },
+    {
+      "author": "Braden Marcera",
+      "date": "Mar 6, 2022",
+      "rating": 5,
+      "text": "Works great, I needed it because my online textbook recently stopped allowing us to copy and paste but this allowed me too again. Now making my notes won't take 4 hours. Thank you!",
+      "helpful": 0
+    },
+    {
+      "author": "Goku",
+      "date": "Feb 17, 2022",
+      "rating": 5,
+      "text": "The rating deceived me to think the extension is bad.\nWhy don't you set \"Enable block section\" on as default? I know how to change the default now but it's on from the start would be better/more convenience",
+      "helpful": 0
+    },
+    {
+      "author": "MASOOD MAKKARY",
+      "date": "Nov 3, 2021",
+      "rating": 5,
+      "text": "IT IS VERY GOOD",
+      "helpful": 0
+    },
+    {
+      "author": "muong nguyen",
+      "date": "Oct 24, 2021",
+      "rating": 5,
+      "text": "very good",
+      "helpful": 1
+    },
+    {
+      "author": "Karthik Kailash",
+      "date": "Oct 20, 2021",
+      "rating": 5,
+      "text": "thank you for this extension. Can finally make flash cards without wasting so much time typing every word from question banks.\n\nCompanies so bent over backwards for piracy even though anki cards exist with the same info, the average user doesn't want to use a pirated question bank and all they're doing is impeding our productivity.\nGreat extension!",
+      "helpful": 0
+    },
+    {
+      "author": "hamada adel (rtl)",
+      "date": "Oct 18, 2021",
+      "rating": 2,
+      "text": "Hm, that's the way I prefer to work :) The source code of the extension is not supposed to be public and so is the source code of ultimate-enable-right-click.github.io page. I am planning to make the website opensource and update it with static blog, but haven't had a time to do so. Probably it'd be better to have it done before the translation. Also, I can afford to translate things to English by my own. If you have other language you can translate into - that'd be better. Maybe Malay language?",
+      "helpful": 0
+    },
+    {
+      "author": "Themis Dsp",
+      "date": "Oct 18, 2021",
+      "rating": 5,
+      "text": "First impressions: this may be the ultimate right click enabling extension. I've made some comparisons with many other rival extensions in \"difficult sites\" and found out that it's effective where others fail. Congratulations to the developer!\n12/06/2024 Update: There is a problem with some site captcha's that don't work with the extension being active. That doesn't take take anything out of my rating - I just wish you could solve it",
+      "helpful": 1
+    },
+    {
+      "author": "Andrew Purvin",
+      "date": "Oct 9, 2021",
+      "rating": 2,
+      "text": "Wow. Its working. Cool!",
+      "helpful": 1
+    },
+    {
+      "author": "Valerii Situkha",
+      "date": "Sep 30, 2021",
+      "rating": 5,
+      "text": "I liked the application, it performs the declared functions well.",
+      "helpful": 1
+    },
+    {
+      "author": "Gypsyche Vendal",
+      "date": "Sep 30, 2021",
+      "rating": 5,
+      "text": "good",
+      "helpful": 0
+    },
+    {
+      "author": "懷疑人生",
+      "date": "Sep 24, 2021",
+      "rating": 5,
+      "text": "This ext doesn't collect your info doing wrongful thing.\nPlus it works better than the rest of rightclick ext.  \nWebsite in whitelist automatically turn on. ⭐⭐⭐⭐⭐",
+      "helpful": 0
+    },
+    {
+      "author": "Gweek",
+      "date": "Sep 22, 2021",
+      "rating": 5,
+      "text": "This one actually works. You're awesome Sean, your warnings for the other similar extensions probably saved my life",
+      "helpful": 0
+    },
+    {
+      "author": "K",
+      "date": "Sep 9, 2021",
+      "rating": 5,
+      "text": "good",
+      "helpful": 1
+    },
+    {
+      "author": "Vince Aggrippino",
+      "date": "Aug 25, 2021",
+      "rating": 4,
+      "text": "I just installed the extension, so that 4 stars is tentative. It may go up or down.\n\nhehe You're kinda secretive... You must be Korean, but \"Sean L\" doesn't sound much like a Korean name. Your only commit just says \"DEV\" 😅\n\nAnyway, I really liked your reply to the misguided reviewer above. I couldn't have said it better myself.\n\nI'll be happy to help with the translation into English. I've already found https://github.com/ultimate-enable-right-click/ultimate-enable-right-click.github.io Do y... Show more",
+      "helpful": 1
+    },
+    {
+      "author": "Max Dzyura",
+      "date": "Aug 25, 2021",
+      "rating": 5,
+      "text": "Wow. Its working. Cool!",
+      "helpful": 0
+    },
+    {
+      "author": "k",
+      "date": "Aug 24, 2021",
+      "rating": 5,
+      "text": "Perfect extension for using on Postype. Especially since it seems to be the safest in comparison to other shady extensions offering the same service. Can't thank you enough!",
+      "helpful": 0
+    },
+    {
+      "author": "Mihir Dhawan",
+      "date": "Aug 18, 2021",
+      "rating": 5,
+      "text": "Will the site owner know if we copied something from their site using this extension?",
+      "helpful": 0
+    },
+    {
+      "author": "Nhân Trần",
+      "date": "Aug 3, 2021",
+      "rating": 5,
+      "text": "Very Good",
+      "helpful": 0
+    },
+    {
+      "author": "Zach Johnson",
+      "date": "Jul 21, 2021",
+      "rating": 5,
+      "text": "Super easy to use and effective!",
+      "helpful": 0
+    },
+    {
+      "author": "Shenmue Is Life",
+      "date": "Jul 21, 2021",
+      "rating": 5,
+      "text": "Finally an extension working on airporthistory.org, thank you",
+      "helpful": 0
+    },
+    {
+      "author": "Lori Evans",
+      "date": "Jun 19, 2021",
+      "rating": 1,
+      "text": "Why would  you make a app to Enable the right click. People disable the right click to prevent thieves from coping their work. That's stealing and takes from the original creator's business who has families to feed and bills to pay.",
+      "helpful": 0
+    },
+    {
+      "author": "Mahdi Shafiee",
+      "date": "Jun 16, 2021",
+      "rating": 5,
+      "text": "A functional extension!",
+      "helpful": 0
+    },
+    {
+      "author": "Legion",
+      "date": "May 14, 2021",
+      "rating": 5,
+      "text": "Anal Spotify disallow right-click. Often artists put unusually long website addresses (no link) in there bio - this plugin restores the Copy option.",
+      "helpful": 0
+    },
+    {
+      "author": "Rob Belin",
+      "date": "May 10, 2021",
+      "rating": 5,
+      "text": "Tried another extension and it didn't work.  This one did.  Thanks Sean L!",
+      "helpful": 0
+    },
+    {
+      "author": "Dinghao Luo",
+      "date": "May 3, 2021",
+      "rating": 5,
+      "text": "Good",
+      "helpful": 0
+    },
+    {
+      "author": "Tasos “Twilight0” Gropalis",
+      "date": "Apr 28, 2021",
+      "rating": 3,
+      "text": "Just installed, does what its supposed to, but is it possible to have a whitelist of websites?",
+      "helpful": 0
+    },
+    {
+      "author": "Klaus Ferreira",
+      "date": "Apr 3, 2021",
+      "rating": 5,
+      "text": "It does what it says! And for a brand new extension this is a great start. I recommend it and I'm anxious for the next features. Great work, dev :)",
+      "helpful": 0
+    },
+    {
+      "author": "J. S. (darkocean)",
+      "date": "Mar 19, 2021",
+      "rating": 1,
+      "text": "The options to use it arn't in english yet so pass on this until they descide to add in an english version.",
+      "helpful": 0
+    }
+  ]
+}

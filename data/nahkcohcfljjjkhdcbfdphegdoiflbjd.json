@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "name": "Enable Copy Everywhere",
+    "avgRating": "4.2",
+    "ratingsCount": "27",
+    "usersCount": "70,000",
+    "url": "https://chromewebstore.google.com/detail/enable-copy-everywhere/nahkcohcfljjjkhdcbfdphegdoiflbjd/reviews",
+    "reviewCount": 16
+  },
+  "reviews": [
+    {
+      "author": "Maajharul Islam (Choyon)",
+      "date": "Apr 27, 2026",
+      "rating": 5,
+      "text": "Working good.",
+      "helpful": 0
+    },
+    {
+      "author": "Beth Knight",
+      "date": "Mar 27, 2026",
+      "rating": 1,
+      "text": "blocked me from using the \"Paste\" function on some websites, including Facebook",
+      "helpful": 0
+    },
+    {
+      "author": "Jig Tagpro",
+      "date": "Jan 21, 2026",
+      "rating": 5,
+      "text": "i did not think it would work lol, worked like a charm",
+      "helpful": 0
+    },
+    {
+      "author": "Debnath Pramanick",
+      "date": "Jan 11, 2026",
+      "rating": 5,
+      "text": "Very good extension to enable copy text everywhere, works as named.",
+      "helpful": 1
+    },
+    {
+      "author": "Leonardo Riera",
+      "date": "Dec 3, 2025",
+      "rating": 1,
+      "text": "I scanned the codebase with Google's own VirusTotal.com, and it says \"While its core functionality aligns with the description, the extension requests and utilizes the 'gcm' (Google Cloud Messaging) permission to display arbitrary notifications to the user. This capability allows the developer to push unsolicited messages, which could be abused for spam, advertising, or directing users to malicious content, unrelated to the extension's stated purpose. Additionally, the extension opens a promo... Show more",
+      "helpful": 0
+    },
+    {
+      "author": "Prateek",
+      "date": "Nov 23, 2025",
+      "rating": 5,
+      "text": "100%working",
+      "helpful": 0
+    },
+    {
+      "author": "Jinka Yateesh",
+      "date": "Nov 15, 2025",
+      "rating": 5,
+      "text": "very useful i refered many extensions which are not worked in my case this one came as a life saver",
+      "helpful": 0
+    },
+    {
+      "author": "Giorgi GT",
+      "date": "Sep 3, 2025",
+      "rating": 5,
+      "text": "works, I can select and copy everything",
+      "helpful": 0
+    },
+    {
+      "author": "TJ Meza",
+      "date": "Jul 14, 2025",
+      "rating": 5,
+      "text": "Work with TMS web platforms without blocking the page original functions. 100 points. THANK U",
+      "helpful": 0
+    },
+    {
+      "author": "Slamet Budi Santoso",
+      "date": "Jun 18, 2025",
+      "rating": 5,
+      "text": "PERFECTLY WORKED 👍🏻",
+      "helpful": 0
+    },
+    {
+      "author": "Mandeep Thakur",
+      "date": "Apr 17, 2025",
+      "rating": 5,
+      "text": "Only one that works on certain sites",
+      "helpful": 0
+    },
+    {
+      "author": "panos k",
+      "date": "Mar 28, 2025",
+      "rating": 1,
+      "text": "Doesnt work with teams",
+      "helpful": 0
+    },
+    {
+      "author": "Anjali",
+      "date": "Jul 27, 2024",
+      "rating": 5,
+      "text": "working perfect. also v3 version safe and secure.",
+      "helpful": 0
+    },
+    {
+      "author": "Naveen Kumar R",
+      "date": "Apr 29, 2023",
+      "rating": 5,
+      "text": "Good one for Copy and paste where you can't able able to do.",
+      "helpful": 0
+    },
+    {
+      "author": "Akash Kumar",
+      "date": "Mar 17, 2023",
+      "rating": 5,
+      "text": "Enabling the Copy Everywhere extension has been a game-changer for me! It's made copying and pasting so much more convenient and efficient across all websites. Highly recommend giving it a try",
+      "helpful": 0
+    },
+    {
+      "author": "Nambi rajan",
+      "date": "Jan 29, 2023",
+      "rating": 4,
+      "text": "like",
+      "helpful": 0
+    }
+  ]
+}
