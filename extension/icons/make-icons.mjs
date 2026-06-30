@@ -1,12 +1,13 @@
-// 依赖无关的图标生成：在 128 坐标系里用几何定义「绿底圆角 + 白色开锁」图形，
+// 依赖无关的图标生成：在 128 坐标系里用几何定义「绿底 + 复制符号(叠放方块) + 文字行」，
 // 4x 超采样抗锯齿，输出 16/32/48/128 的 RGBA PNG（手写 PNG 编码，仅用 node:zlib）。
+// 图标语义 = 「复制文本」（不是挂锁/加密）。
 import { deflateSync } from "node:zlib";
 import { writeFileSync } from "node:fs";
 
-const GREEN = [22, 163, 74];   // #16a34a
+const GREEN = [22, 163, 74]; // #16a34a
 const WHITE = [255, 255, 255];
 
-function inRoundRect(x, y, x0, y0, w, h, r) {
+function rr(x, y, x0, y0, w, h, r) {
   const x1 = x0 + w, y1 = y0 + h;
   if (x < x0 || x > x1 || y < y0 || y > y1) return false;
   const cx = x < x0 + r ? x0 + r : x > x1 - r ? x1 - r : x;
@@ -16,22 +17,20 @@ function inRoundRect(x, y, x0, y0, w, h, r) {
 
 // 在 128×128 坐标系里返回某点的 RGBA
 function colorAt(x, y) {
-  if (!inRoundRect(x, y, 0, 0, 128, 128, 28)) return [0, 0, 0, 0]; // 圆角外透明
+  if (!rr(x, y, 0, 0, 128, 128, 28)) return [0, 0, 0, 0]; // 圆角外透明
 
-  // 开锁形状（白）：左立柱 + 上半环（右侧开口），锁体
-  const body = inRoundRect(x, y, 36, 62, 56, 44, 9);
-  const leftLeg = inRoundRect(x, y, 39, 47, 11, 18, 2);
-  const dx = x - 64, dy = y - 48, d = Math.hypot(dx, dy);
-  const upperRing = y <= 48 && d >= 14 && d <= 25; // 顶部半环
-  const white = body || leftLeg || upperRing;
+  const back = rr(x, y, 50, 28, 46, 46, 9);   // 后方块（白）
+  const gap = rr(x, y, 31, 45, 56, 56, 12);   // 绿色间隔，分出两块
+  const front = rr(x, y, 35, 49, 48, 48, 9);  // 前方块（白）
+  const lines =                               // 前块内文字行（绿）
+    rr(x, y, 43, 60, 32, 5, 2.5) ||
+    rr(x, y, 43, 72, 32, 5, 2.5) ||
+    rr(x, y, 43, 84, 20, 5, 2.5);
 
-  // 锁孔（在锁体上挖绿）：圆 + 短竖槽
-  const keyCircle = (x - 64) ** 2 + (y - 80) ** 2 <= 7 * 7;
-  const keySlot = inRoundRect(x, y, 60.5, 80, 7, 16, 3);
-  const keyhole = body && (keyCircle || keySlot);
-
-  if (keyhole) return [...GREEN, 255];
-  if (white) return [...WHITE, 255];
+  if (front && lines) return [...GREEN, 255];
+  if (front) return [...WHITE, 255];
+  if (gap) return [...GREEN, 255];
+  if (back) return [...WHITE, 255];
   return [...GREEN, 255];
 }
 
@@ -46,7 +45,6 @@ function render(size) {
           const x = ((px + (sx + 0.5) / ss) / size) * 128;
           const y = ((py + (sy + 0.5) / ss) / size) * 128;
           const [cr, cg, cb, ca] = colorAt(x, y);
-          // 预乘 alpha 再平均，避免边缘发黑
           const af = ca / 255;
           r += cr * af; g += cg * af; b += cb * af; a += ca;
         }
