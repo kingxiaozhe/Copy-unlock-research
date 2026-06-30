@@ -121,7 +121,7 @@ copy-unlock/
 
 ## 待办 / 下一步
 
-- [ ] 图标（16/48/128 PNG，上架必需）
+- [x] 图标（16/32/48/128 PNG，上架必需）—— 见 `icons/`，可用 `node icons/make-icons.mjs icons` 复现（无依赖）
 - [ ] 全局总开关 + 快捷键（commands API）
 - [x] 针对性适配规则表（按 hostname 的特殊修复）—— 注册表 + 起步规则 + 离线测试已就位，逐站规则待真机验证后扩充（见 SITE-RULES.md）
 - [ ] 划词复制 / 一键全文提取
