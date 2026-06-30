@@ -1,0 +1,67 @@
+<!doctype html><meta charset="utf-8">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0;font-family:"WenQuanYi Zen Hei",sans-serif}
+  html,body{width:1280px;height:800px;background:#eef0f3}
+  .wrap{width:1280px;height:800px;padding:40px 48px;display:flex;flex-direction:column}
+  .head{display:flex;align-items:center;gap:16px;margin-bottom:22px}
+  .head img{width:54px;height:54px;border-radius:12px}
+  .title{font-size:34px;font-weight:700;color:#16181d}
+  .title small{font-weight:400;color:#8a9099;font-size:24px}
+  .tag{margin-left:auto;font-size:19px;color:#5a6068}
+  .cards{flex:none;height:500px;display:flex;gap:30px}
+  .card{flex:1;background:#fff;border-radius:20px;box-shadow:0 10px 34px rgba(20,30,50,.10);overflow:hidden;display:flex;flex-direction:column;position:relative}
+  .pill{display:inline-flex;align-items:center;gap:8px;font-size:18px;font-weight:600;padding:8px 16px;border-radius:999px;margin:22px 0 0 24px;align-self:flex-start}
+  .pill.bad{background:#fdecec;color:#c93a3a}
+  .pill.good{background:#dcfce7;color:#15803d}
+  .body{padding:20px 30px 30px;font-size:18px;line-height:2}
+  .bad .body{color:#aeb4bb;cursor:not-allowed}
+  .good .body{color:#2b2f36}
+  .sel{background:#9cc4fb;color:#10243f;border-radius:3px;box-decoration-break:clone;padding:1px 0}
+  .note{margin-top:14px;font-size:15px;color:#c93a3a}
+  .ctxmenu{margin-top:18px;width:210px;border-radius:10px;border:1px solid #e6e8ec;background:#fafbfc;box-shadow:0 6px 18px rgba(0,0,0,.07);padding:6px 0;position:relative;opacity:.7}
+  .ctxmenu div{padding:7px 16px;font-size:15px;color:#b9bec5}
+  .ban{position:absolute;right:-14px;top:-14px;width:46px;height:46px;border-radius:50%;border:5px solid #e25555;}
+  .ban::after{content:"";position:absolute;left:-5px;top:18px;width:46px;height:5px;background:#e25555;transform:rotate(45deg);transform-origin:center}
+  .copybtn{position:absolute;right:30px;top:150px;display:inline-flex;align-items:center;gap:8px;background:#16a34a;color:#fff;font-size:17px;font-weight:600;padding:10px 18px;border-radius:10px;box-shadow:0 8px 20px rgba(22,163,74,.4)}
+  .badge{position:absolute;right:22px;top:22px;background:#16a34a;color:#fff;font-size:14px;font-weight:700;padding:4px 12px;border-radius:999px}
+  .chips{display:flex;gap:18px;justify-content:center;margin-top:26px}
+  .chip{background:#fff;border:1px solid #e2e5ea;border-radius:999px;padding:11px 22px;font-size:17px;color:#3a3f47;display:flex;align-items:center;gap:8px}
+  .chip b{color:#16a34a}
+</style>
+<div class="wrap">
+  <div class="head">
+    <img src="../icons/icon128.png">
+    <div class="title">复制解锁 <small>· Copy Unlock</small></div>
+    <div class="tag">让你能看到的内容，能复制</div>
+  </div>
+  <div class="cards">
+    <div class="card bad">
+      <span class="pill bad">✕ 解锁前 · 无法选择 / 复制</span>
+      <div class="body">
+        这是一段被网站前端「禁止复制」的正文。鼠标划不动、选不中，<br>
+        右键菜单被屏蔽，Ctrl+C 也被拦截。<br>
+        <div class="note">⚠ 文字无法选中 · 右键被禁用</div>
+        <div class="ctxmenu">
+          <div>复制</div><div>全选</div><div>查看源代码</div>
+          <span class="ban"></span>
+        </div>
+      </div>
+    </div>
+    <div class="card good">
+      <span class="pill good">✓ 解锁后 · 可选可复制</span>
+      <span class="badge">ON</span>
+      <div class="body">
+        这是一段被网站前端「禁止复制」的正文。<span class="sel">现在可以正常划选、复制</span>，<br>
+        右键菜单恢复，Ctrl+C 照常工作。<br>
+        选中文字还会浮现一个「复制」按钮，一点即走。
+      </div>
+      <span class="copybtn">📋 复制</span>
+    </div>
+  </div>
+  <div class="chips">
+    <span class="chip"><b>🔒</b> 零联网</span>
+    <span class="chip"><b>🚫</b> 无广告</span>
+    <span class="chip"><b>✓</b> 不破坏页面</span>
+    <span class="chip"><b>&lt;/&gt;</b> 开源</span>
+  </div>
+</div>
